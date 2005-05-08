@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://spacepants.org/src/pymad/download/pymad-%{version}.tar.gz
-# Source0-md5:	45a4ecc4d0600661199e4040a81ea3fe
+# Source0-md5:	2c4e23386862b6e9ec6a04a172b241fa
 URL:		http://spacepants.org/src/pymad/
 BuildRequires:	libmad-devel
 BuildRequires:	rpmbuild(macros) >= 1.174
