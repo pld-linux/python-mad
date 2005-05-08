@@ -2,7 +2,7 @@
 Summary:	A Python module for the MPEG Audio Decoder library
 Name:		python-%{module}
 Version:	0.5.3
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://spacepants.org/src/pymad/download/pymad-%{version}.tar.gz
