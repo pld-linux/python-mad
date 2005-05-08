@@ -5,7 +5,6 @@ Version:	0.5.3
 Release:	0.1
 License:	GPL
 Group:		Libraries/Python
-#Source0Download: http://www.andrewchatham.com/pyogg/
 Source0:	http://spacepants.org/src/pymad/download/pymad-%{version}.tar.gz
 # Source0-md5:	45a4ecc4d0600661199e4040a81ea3fe
 URL:		http://spacepants.org/src/pymad/
