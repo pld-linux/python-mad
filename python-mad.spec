@@ -1,15 +1,16 @@
-%define		module	mad
 Summary:	A Python module for the MPEG Audio Decoder library
 Summary(pl):	Modu³ Pythona do biblioteki MPEG Audio Decoder
-Name:		python-%{module}
-Version:	0.5.4
-Release:	2
+Name:		python-mad
+Version:	0.6
+Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://spacepants.org/src/pymad/download/pymad-%{version}.tar.gz
-# Source0-md5:	5a2b86cf3b3501a620ef8156b49289cb
+# Source0-md5:	a1405fb4b610348565c8d0e400c5ff18
 URL:		http://spacepants.org/src/pymad/
 BuildRequires:	libmad-devel
+BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.174
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,4 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS README NEWS THANKS
 %doc test/*
-%attr(755,root,root) %{py_sitedir}/%{module}module.so
+%attr(755,root,root) %{py_sitedir}/madmodule.so
+%{py_sitedir}/pymad-*.egg-info
