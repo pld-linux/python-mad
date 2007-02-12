@@ -1,5 +1,5 @@
 Summary:	A Python module for the MPEG Audio Decoder library
-Summary(pl):	Modu³ Pythona do biblioteki MPEG Audio Decoder
+Summary(pl.UTF-8):   ModuÅ‚ Pythona do biblioteki MPEG Audio Decoder
 Name:		python-mad
 Version:	0.6
 Release:	1
@@ -21,11 +21,11 @@ Audio Decoder library. pymad provides a high-level API, similar to the
 pyogg module, which makes reading PCM data from MPEG audio streams a
 piece of cake.
 
-%description -l pl
-pymad to modu³ Pythona pozwalaj±cy programom w Pythonie u¿ywaæ
-biblioteki MPEG Audio Decoder (dekodera d¼wiêku MPEG). pymad
-udostêpnia wysokopoziomowe API podobne do modu³u pyogg, co czyni
-odczyt danych PCM ze strumieni d¼wiêkowych MPEG bardzo ³atwym.
+%description -l pl.UTF-8
+pymad to moduÅ‚ Pythona pozwalajÄ…cy programom w Pythonie uÅ¼ywaÄ‡
+biblioteki MPEG Audio Decoder (dekodera dÅºwiÄ™ku MPEG). pymad
+udostÄ™pnia wysokopoziomowe API podobne do moduÅ‚u pyogg, co czyni
+odczyt danych PCM ze strumieni dÅºwiÄ™kowych MPEG bardzo Å‚atwym.
 
 %prep
 %setup -q -n pymad-%{version}
