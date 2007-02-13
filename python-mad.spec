@@ -1,5 +1,5 @@
 Summary:	A Python module for the MPEG Audio Decoder library
-Summary(pl.UTF-8):   Moduł Pythona do biblioteki MPEG Audio Decoder
+Summary(pl.UTF-8):	Moduł Pythona do biblioteki MPEG Audio Decoder
 Name:		python-mad
 Version:	0.6
 Release:	1
